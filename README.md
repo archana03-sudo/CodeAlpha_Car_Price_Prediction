@@ -23,6 +23,7 @@ Model Evaluation using MAE, MSE, and R² Score
 Visualization of Predictions
 
 Model Performance
+
 R² Score ≈ 0.84
 MAE ≈ 1.22
 MSE ≈ 3.53
