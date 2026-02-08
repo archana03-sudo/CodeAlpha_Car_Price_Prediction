@@ -37,12 +37,19 @@ The dataset includes the following features:
 ## Project Workflow
 
 ✔ Data Cleaning
+
 ✔ Handling Missing Values
+
 ✔ Encoding Categorical Variables
+
 ✔ Feature Selection
+
 ✔ Train-Test Split
+
 ✔ Linear Regression Model Training
+
 ✔ Model Evaluation (MAE, MSE, R² Score)
+
 ✔ Visualization of Actual vs Predicted Prices
 
 
@@ -68,7 +75,7 @@ The model explains approximately **84% of the variance** in car selling prices, 
 1. Clone the repository:
 
    
-   git clone https://github.com/your-username/CodeAlpha_Car_Price_Prediction.git
+   git clone https://github.com/archana03-sudo/CodeAlpha_Car_Price_Prediction.git
    
 
 2. Install required dependencies:
