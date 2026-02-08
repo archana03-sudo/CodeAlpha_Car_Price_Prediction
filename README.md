@@ -9,10 +9,15 @@ The objective is to demonstrate end-to-end implementation of a regression proble
 Technologies Used
 
 Python
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
 
 Workflow
