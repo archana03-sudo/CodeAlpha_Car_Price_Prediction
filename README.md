@@ -1,50 +1,81 @@
-Car Price Prediction with Machine Learning
 
-Overview
 
-This project builds a machine learning regression model to predict the selling price of used cars based on various features such as manufacturing year, present price, kilometers driven, fuel type, transmission type, and ownership history.
+#  CodeAlpha – Car Price Prediction with Machine Learning
 
-The objective is to demonstrate end-to-end implementation of a regression problem including data preprocessing, feature engineering, model training, evaluation, and visualization.
+##  Project Objective
 
-Technologies Used
+The objective of this project is to build a machine learning regression model to predict the selling price of used cars based on various vehicle attributes such as manufacturing year, present price, fuel type, transmission type, kilometers driven, and ownership history.
 
-Python
+This project demonstrates an end-to-end machine learning workflow including data preprocessing, feature engineering, model training, evaluation, and visualization.
 
-Pandas
 
-NumPy
+##  Tools & Technologies Used
 
-Matplotlib
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
-Seaborn
 
-Scikit-learn
+## Dataset Description
 
-Workflow
+The dataset includes the following features:
 
-Data Cleaning & Preprocessing
-Encoding Categorical Variables
-Feature Selection
-Train-Test Split
-Linear Regression Model Training
-Model Evaluation using MAE, MSE, and R² Score
-Visualization of Predictions
+* **Car_Name** – Name of the car
+* **Year** – Manufacturing year
+* **Present_Price** – Current ex-showroom price
+* **Driven_kms** – Total kilometers driven
+* **Fuel_Type** – Type of fuel used (Petrol/Diesel/CNG)
+* **Selling_type** – Dealer or Individual
+* **Transmission** – Manual or Automatic
+* **Owner** – Number of previous owners
+* **Selling_Price** – Target variable (resale price)
 
-Model Performance
 
-R² Score ≈ 0.84
-MAE ≈ 1.22
-MSE ≈ 3.53
+## Project Workflow
 
-The model explains approximately 84% of the variance in car prices, indicating strong predictive performance for a linear regression approach.
+✔ Data Cleaning
+✔ Handling Missing Values
+✔ Encoding Categorical Variables
+✔ Feature Selection
+✔ Train-Test Split
+✔ Linear Regression Model Training
+✔ Model Evaluation (MAE, MSE, R² Score)
+✔ Visualization of Actual vs Predicted Prices
 
-Key Insights
 
-Present price has the strongest positive influence on selling price.
-Newer vehicles retain higher resale value.
-Increased kilometers driven negatively impacts resale price.
-Ownership history slightly reduces market value.
+## Model Performance
 
-Conclusion
+* **MAE:** ~1.22
+* **MSE:** ~3.53
+* **R² Score:** ~0.84
 
-This project demonstrates how regression models can be applied in real-world price estimation systems such as used car marketplaces. The workflow reflects industry-standard data science practices from preprocessing to evaluation.
+The model explains approximately **84% of the variance** in car selling prices, indicating strong predictive performance for a linear regression model.
+
+
+## Key Insights
+
+* Present price has the strongest positive influence on resale value.
+* Newer vehicles generally have higher selling prices.
+* Higher mileage negatively impacts resale value.
+* Ownership history slightly reduces market price.
+
+
+## How to Run This Project
+
+1. Clone the repository:
+
+   
+   git clone https://github.com/your-username/CodeAlpha_Car_Price_Prediction.git
+   
+
+2. Install required dependencies:
+
+   pip install -r requirements.txt
+  
+
+3. Open the notebook:
+   
+   jupyter notebook
